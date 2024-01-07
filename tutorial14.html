@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css selectors</title>
+    <style>
+        #firstheading{
+            background-color: black;
+            color: white;
+        }
+        p{
+            color: red;
+        }
+        #redElement{
+            color: blue;
+            background-color: brown;
+        }
+        .greenElement{
+            color: rgb(31, 240, 31);
+            background-color: brown;
+        }
+        footer, span{
+            background-color: brown;
+            color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+   <h1 id="firstheading">Css selectors</h1>
+   <p id="redElement" class="greenElement">this is a simple paragraph to demonstrate css selectors</p>
+   <p class="greenElement">this is a simple another paragraph to demonstrate css selectors</p>
+   <div>
+       <p>this is a simple yet another paragraph to demonstrate css selectors</p>
+       <span>this is span</span>
+    </div>
+    <footer>this is footer</footer>
+</body>
+</html>
