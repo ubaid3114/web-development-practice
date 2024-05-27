@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psudo selectore & more designings</title>
+    <style>
+        .container{
+            border: 2px solid salmon;
+            background-color: rgb(133, 185, 187);
+            padding: 34px;
+            margin: 34px auto;
+            width: 666px;
+        }
+        a{
+            text-decoration: none;
+            color: brown;
+        }
+        a:hover{
+            background-color: burlywood;
+            color: blue;
+        }
+        a:visited{
+            background-color: darkgoldenrod;
+            color: white
+        }
+        a:active{
+            background-color: yellow;
+            color: green
+        }
+        .btn{
+            font-style: italic;
+            font-weight: bold;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: rgb(218, 136, 153);
+            color:white;
+            padding: 5px;
+            border: none;
+            cursor: pointer;
+            font-size: 15px;
+            border-radius: 4px;
+        }
+        .btn:hover{
+            color: brown;
+            background-color: burlywood;
+            border: 2px solid black;
+        }
+        .btn:visited{
+            background-color: darkgoldenrod;
+            color: rgba(170, 153, 60, 0.552);
+        }
+        .btn:active{
+            background-color: yellow;
+            color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3>this is my heading</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, rem inventore veniam consectetur perspiciatis mollitia fugit repellat veritatis rerum nulla ipsa ea praesentium cupiditate, laboriosam fuga commodi aliquid eligendi doloremque.
+        </p>
+        <a href="https://google.com" class="btn">Read more</a>
+        <button class="btn">contact us</button>
+    </div>
+</body>
+</html>

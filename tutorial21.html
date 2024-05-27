@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Edu TAS Beginner", cursive;
+            ;
+        }
+
+        .container {
+            width: 1000px;
+            margin: 30px auto;
+            border: 3px solid plum;
+            background-color: sandybrown;
+        }
+
+        .items {
+            border: 3px solid gray;
+            padding: 12px 9px;
+            margin: 12px 9px;
+            background-color: rgb(186, 186, 186);
+        }
+
+        #fruits {
+            float: left;
+            width: 48%;
+        }
+
+        #vegetables {
+            float: left;
+            width: 48%;
+        }
+
+        #stationary {
+            /* float: left; */
+            clear: both;
+            width: 100%;
+        }
+
+        p,
+        h3 {
+            text-align: center;
+            text-align: justify;
+        }
+
+        h1 {
+            margin: 23px auto;
+            width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>welcome to my store</h1>
+        <div id="fruits" class="items">
+            <h3>fruits</h3>
+            <p id="fruitsPara" class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint excepturi
+                fuga assumenda et. Voluptates tempore, accusantium sequi libero cupiditate commodi aut, perspiciatis
+                quibusdam quis facere optio. Voluptatem ipsa possimus vero. Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Distinctio, voluptatibus repellendus ipsam nihil nam deleniti vitae quis unde in
+                doloribus magnam quas at, repellat ducimus rem dolorum quam a repudiandae.
+            </p>
+        </div>
+        <div id="vegetables" class="items">
+            <h3>vegetables</h3>
+            <p id="vegetablesPara" class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint excepturi
+                fuga assumenda et. Voluptates tempore, accusantium sequi libero cupiditate commodi aut, perspiciatis
+                quibusdam quis facere optio. Voluptatem ipsa possimus vero. Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Distinctio, voluptatibus repellendus ipsam nihil nam deleniti vitae quis unde in
+                doloribus magnam quas at, repellat ducimus rem dolorum quam a repudiandae.
+            </p>
+        </div>
+        <div id="stationary" class="items">
+            <h3>stationary</h3>
+            <p id="stationaryPara" class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint excepturi
+                fuga assumenda et. Voluptates tempore, accusantium sequi libero cupiditate commodi aut, perspiciatis
+                quibusdam quis facere optio. Voluptatem ipsa possimus vero. Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Distinctio, voluptatibus repellendus ipsam nihil nam deleniti vitae quis unde in
+                doloribus magnam quas at, repellat ducimus rem dolorum quam a repudiandae.
+            </p>
+        </div>
+        <div id="glasses" class="items">
+            <h3>glasses</h3>
+            <p id="glassesPara" class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint excepturi
+                fuga assumenda et. Voluptates tempore, accusantium sequi libero cupiditate commodi aut, perspiciatis
+                quibusdam quis facere optio. Voluptatem ipsa possimus vero. Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Distinctio, voluptatibus repellendus ipsam nihil nam deleniti vitae quis unde in
+                doloribus magnam quas at, repellat ducimus rem dolorum quam a repudiandae.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
