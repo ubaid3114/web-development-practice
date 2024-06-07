@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visibility & Z-index</title>
+    <style>
+        .box{
+            width: 170px;
+            height: 170px;
+            border: 2px solid black;
+        }
+
+        #box1{
+            background-color: red;
+            position: relative;
+            top: 80px;
+            z-index: 90;
+            /* visibility: hidden; */
+            /* disp lay: none; */
+        }
+        #box2{
+            background-color: green;
+            position: relative;
+            top: 50px;
+            z-index: 150;
+        }
+        #box3{
+            background-color: blue;
+            position: relative;
+            top: 14px;
+            z-index: 200px;
+        }
+        #box4{
+            background-color: orange;
+            position: relative;
+            top: 30;
+            z-index: -10;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+</body>
+</html>
