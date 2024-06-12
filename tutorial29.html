@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media quries</title>
+    <style>
+        .box{
+            font-size: 50px;
+            text-align: center;
+            background-color: orchid;
+            color: black;
+            display: none;
+        }
+
+        @media (min-width:100px) and (max-width:250px) {
+            #box1{
+                display: block;
+                background-color: brown;
+            }
+        }
+        @media (min-width:250px) and (max-width:500px) {
+            #box2{
+                display: block;
+                background-color: blue;
+            }
+        }
+        @media (min-width:500px) and (max-width:750px) {
+            #box3{
+                display: block;
+                background-color: green;
+            }
+        }
+        @media (min-width:750px) and (max-width:1000px) {
+            #box4{
+                display: block;
+                background-color: yellow;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, sed?</div>
+    <div class="box" id="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, sed?</div>
+    <div class="box" id="box3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, sed?</div>
+    <div class="box" id="box4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, sed?</div>
+</body>
+</html>
