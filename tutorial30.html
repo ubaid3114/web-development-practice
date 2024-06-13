@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about selectors</title>
+    <style>
+        h1{
+            background-color: brown;
+            color: whitesmoke;
+            font-weight: bold;
+            font-style: italic;
+            text-align: center;
+        }
+
+        /* div p {
+            color: rgb(166, 166, 58);
+            background-color: bisque;
+            font-size: 2rem;
+            font-weight: bold;
+            font-style: italic;
+            text-align: center;
+        } */
+
+        /* div > p {
+            color: rgb(166, 166, 58);
+            background-color: bisque;
+            font-size: 2rem;
+            font-weight: bold;
+            font-style: italic;
+            text-align: center;
+        } */
+
+        div + p{
+            color: whitesmoke;
+            background-color: black;
+        }
+
+        /* div li p {
+            color: rgb(166, 166, 58);
+            background-color: bisque;
+            font-size: 2rem;
+            font-weight: bold;
+            font-style: italic;
+            text-align: center;
+        } */
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, quae!</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li class="item"><p>this is list paragraph</p></li>
+                <li>this is an other list</li>
+                <p>this is para inside ul</p>
+            </ul>
+            <p>this is a paragraph</p>
+        </div>
+        <p>this is an other paragraph</p>
+    </div>
+    <p>this is outer most paragraph</p>
+</body>
+</html>
