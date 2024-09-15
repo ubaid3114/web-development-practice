@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>string and strings method</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <div id="content"></div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, perferendis asperiores officia ducimus nesciunt itaque incidunt ab veritatis ratione expedita corporis sed dicta exercitationem quos eos laborum voluptatem provident beatae error excepturi maxime magnam quam cumque. Nobis molestiae repellat quidem.</p>
+    </div>
+
+    <script>
+        var string1 = "this and that";
+        var string2 = 'this and that';
+        var message1 = "insha AlLAH will be next Prime minister of pakistan";
+        var message2 = "imran ahmed khan niazi";
+        var combine = `${message1} ${message2}`;
+        console.log(combine);
+        console.log(string1 , string2 , message1);
+        console.log(string1 + " " + string2 + " " + message2);
+
+        var len = combine.length;
+        console.log(`combine length is: ${combine +" "+ len}`);
+
+        console.log(`haider\n you don't have \t i know \b sukyna`);
+
+        var y = new String("this and that");
+        console.log(y);
+
+        document.getElementById('content').innerHTML = '<h3>this is heading 3 </h3>'
+
+    </script>
+</body>
+</html>

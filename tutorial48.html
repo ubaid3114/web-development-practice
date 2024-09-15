@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript string function</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    
+    <script>
+        var string  = "this is a laptop"
+        console.log(string)
+        var string  = "this is a laptop"
+        console.log(string.toLocaleUpperCase())
+        var string  = "THIS IS A LAPTOP"
+        console.log(string.toLocaleLowerCase())
+
+        var position = string.indexOf('is');
+        console.log(position)
+
+        var position = string.lastIndexOf('is');
+        console.log(position)
+
+        var substr = string.slice(1,6);
+        console.log(substr)
+
+        var substr = string.substring(1,10)
+        console.log(substr)
+
+        var substr = string.substr(1,10)
+        console.log(substr)
+
+        var replaced = string.replace('laptop', 'personal computer')
+        console.log(replaced)
+
+        var newString = string.concat(' New string')
+        console.log(newString)
+
+        var strWithWhiteSpaces = "  this is container       whitespaces   ";
+        console.log(strWithWhiteSpaces)
+        console.log(strWithWhiteSpaces.trim())
+
+        var char = string.charAt(2);
+        console.log(char)
+
+        var char = string.charCodeAt(2);
+        console.log(char)
+
+        console.log(string[3])
+        
+    </script>
+</body>
+</html>
