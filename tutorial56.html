@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js setTimeOut and clearTimeOut</title>
+</head>
+<body>
+    <div class="container">
+        time now is <span id="time"></span>
+    </div>
+
+    <script>
+        console.log("this is an other tutorial")
+        // setTimeout --> allow us to run the function once after the interval of time 
+        // clearTimeOut --> allow us to run the function repeatedly after the interval of time
+        
+        // function greet(){
+        //     console.log("hello good morning")
+        // }
+        // greet();
+
+        // function greet(){
+        //     console.log("hello good morning")
+        // }
+        // setTimeout(greet,3000);
+
+        // function greet(name){
+        //     console.log("hello good morning", name)
+        // }
+        // setTimeout(greet,3000, "ubaid");
+
+        // function greet(name, byeText){
+        //     console.log("hello good morning " + name + " " + byeText)
+        // }
+        // setTimeout(greet,3000, "ubaid", "take care");
+
+        // function greet(name, byeText){
+        //     console.log("hello good morning " + name + " " + byeText)
+        // }
+        // timeOut = setTimeout(greet, 3000, "ubaid", "take care");
+        // console.log(timeOut)
+        // clearTimeout(timeOut)
+
+        // function greet(name, byeText){
+        //     console.log("hello good morning " + name + " " + byeText)
+        // }
+        // setInterval(greet, 3000, "ubaid", "take care");
+
+        // function greet(name, byeText){
+        //     console.log("hello good morning " + name + " " + byeText)
+        // }
+        // intervalId = setInterval(greet, 3000, "ubaid", "take care");
+        // clearTimeout(intervalId);
+
+        function displayTime () {
+            time = new Date();
+            console.log(time);
+            document.getElementById('time').innerHTML = time; 
+        }
+        setInterval(displayTime, 1000)
+    </script>
+</body>
+</html>
